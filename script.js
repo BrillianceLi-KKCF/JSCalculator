@@ -24,15 +24,15 @@ function calculate() {
   }
 
   if (operator2 === "+") {
-    result = result + num2; // Addition
+    result = result + num3; // Addition
   } else if (operator2 === "-") {
-    result = result - num2; // Subtraction
+    result = result - num3; // Subtraction
   } else if (operator2 === "*") {
-    result = result * num2; // Multiplication
+    result = result * num3; // Multiplication
   } else if (operator2 === "/") {
-    result = result / num2; // Division
+    result = result / num3; // Division
   } else if (operator2 === "%") {
-    result = result % num2; // Modulus (remainder)
+    result = result % num3; // Modulus (remainder)
   } else {
     result = "Invalid operator"; // Handle unexpected operator input
   }
